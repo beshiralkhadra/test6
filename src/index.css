@@ -1,0 +1,50 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+.form-container {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-btn {
+  margin: 1em auto;
+  background-color: blue;
+  width: 20%;
+  padding: 0.5em;
+  color: white;
+}
+.form-btn:hover {
+  width: 22%;
+}
+.login-form {
+  max-width: 500px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em;
+}
+input {
+  width: 80%;
+}
+/* label {
+  display: block;
+} */
+.login-btn {
+  margin: 1em auto;
+  background-color: blue;
+  width: 20%;
+  padding: 0.5em;
+  color: white;
+  cursor: pointer;
+}
+.login-btn:hover {
+  width: 22%;
+}
+.login-link {
+  margin: 1em auto;
+}
